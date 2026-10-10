@@ -55,3 +55,12 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Artefactos locales; la entrega final versionada esta en /Entrega.
+/lab12
+/reporte_lab12.pdf
+/evidencia_lab12.pdf
+/resultados_lab12.zip
+/resultados/*.stderr.txt
+/resultados/uso.stdout.txt
+/trabajo/
