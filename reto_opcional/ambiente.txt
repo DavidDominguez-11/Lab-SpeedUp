@@ -1,0 +1,29 @@
+2026-10-10T15:45:35-06:00
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+CPU(s):                               12
+Model name:                           AMD Ryzen 5 4600H with Radeon Graphics
+Thread(s) per core:                   2
+Core(s) per socket:                   6
+L2 cache:                             3 MiB (6 instances)
+L3 cache:                             4 MiB (1 instance)
+NUMA node0 CPU(s):                    0-11
+NAME ONE-SIZE ALL-SIZE WAYS TYPE        LEVEL SETS PHY-LINE COHERENCY-SIZE
+L1d       32K     192K    8 Data            1   64        1             64
+L1i       32K     192K    8 Instruction     1   64        1             64
+L2       512K       3M    8 Unified         2 1024        1             64
+L3         4M       4M   16 Unified         3 4096        1             64
+CPU CORE SOCKET ONLINE
+  0    0      0    yes
+  1    0      0    yes
+  2    1      0    yes
+  3    1      0    yes
+  4    2      0    yes
+  5    2      0    yes
+  6    3      0    yes
+  7    3      0    yes
+  8    4      0    yes
+  9    4      0    yes
+ 10    5      0    yes
+ 11    5      0    yes
+56b6e03e7760368f492ae9ee07053d514c23ade293534512d566dca0ac83e3dc  reto_opcional/lab12_speedup.c
+805d570e7f40c4e348300edad2cfa2b4d58ef919d15c6ab12b4b9f2f35b56286  reto_opcional/lab12_reto
