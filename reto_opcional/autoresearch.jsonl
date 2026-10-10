@@ -1,0 +1,3 @@
+{"etapa":"barrido","configuraciones":33,"pares":165,"medianas_superlineales":[{"N":393216,"p":2,"S":2.0035},{"N":524288,"p":2,"S":2.0006}],"decision":"confirmar_ambas","datos":"exploracion.csv"}
+{"etapa":"confirmacion","N":393216,"p":2,"procesos":10,"pares":50,"mediana_global_S":1.9917,"procesos_con_mediana_superlineal":4,"decision":"no_reproducible","datos":"confirmacion.csv"}
+{"etapa":"confirmacion","N":524288,"p":2,"procesos":10,"pares":50,"mediana_global_S":1.9727,"procesos_con_mediana_superlineal":2,"decision":"no_reproducible","datos":"confirmacion.csv"}
