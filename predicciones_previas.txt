@@ -1,0 +1,7 @@
+Predicciones registradas antes de ejecutar los experimentos — Lab 12
+Equipo observado: AMD Ryzen 5 4600H, 6 nucleos fisicos, 12 hilos logicos (WSL2).
+
+Parte 1: A p=12, el modelo ideal de Amdahl predice S=12 para fp=1.00 y S=1/(0.10+0.90/12)=5.714 para fp=0.90. En hardware espero menos por coste de OpenMP, SMT y frecuencia variable.
+Parte 2: Espero que N=16 y N=1024 sean demasiado pequenos para amortizar OpenMP. Estimo que el cruce S>1 ocurrira alrededor de N=65536 o N=1048576, segun el ancho de banda y la sobrecarga.
+Parte 3: Para p=4 y coste lineal creciente, el ultimo bloque static carga aproximadamente 7/16=43.75% del trabajo. Su speedup ideal seria aproximadamente 16/7=2.286, menor que dynamic/guided si el coste de planificacion es pequeno.
+Parte 4: Con fp inicial aproximada de 5/6, el limite Amdahl fijo seria 6. Para problema escalado a p=12, predigo S_G=12-(11/6)=10.167 en el modelo ideal; espero menor S medido por SMT, sobrecarga y variacion de frecuencia.
