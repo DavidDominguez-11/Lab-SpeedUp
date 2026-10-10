@@ -1,0 +1,20 @@
+2026-10-08T17:00:25-06:00 | INICIO | ./lab12 amdahl 400000 1.00 > resultados/amdahl_fp100.csv
+2026-10-08T17:00:38-06:00 | FIN | amdahl_fp100 | 12 filas de datos
+2026-10-08T17:00:38-06:00 | INICIO | ./lab12 amdahl 400000 0.95 > resultados/amdahl_fp95.csv
+2026-10-08T17:00:54-06:00 | FIN | amdahl_fp95 | 12 filas de datos
+2026-10-08T17:00:54-06:00 | INICIO | ./lab12 amdahl 400000 0.90 > resultados/amdahl_fp90.csv
+2026-10-08T17:01:09-06:00 | FIN | amdahl_fp90 | 12 filas de datos
+2026-10-08T17:01:09-06:00 | INICIO | ./lab12 amdahl 400000 0.75 > resultados/amdahl_fp75.csv
+2026-10-08T17:01:28-06:00 | FIN | amdahl_fp75 | 12 filas de datos
+2026-10-08T17:01:28-06:00 | INICIO | ./lab12 amdahl 400000 0.50 > resultados/amdahl_fp50.csv
+2026-10-08T17:01:56-06:00 | FIN | amdahl_fp50 | 12 filas de datos
+2026-10-08T17:01:56-06:00 | INICIO | ./lab12 suma > resultados/suma.csv
+2026-10-08T17:02:05-06:00 | FIN | suma | 25 filas de datos
+2026-10-08T17:02:05-06:00 | INICIO | ./lab12 desbalance static > resultados/desb_static.csv
+2026-10-08T17:02:07-06:00 | FIN | desb_static | 12 filas de datos
+2026-10-08T17:02:07-06:00 | INICIO | ./lab12 desbalance dynamic > resultados/desb_dynamic.csv
+2026-10-08T17:02:08-06:00 | FIN | desb_dynamic | 12 filas de datos
+2026-10-08T17:02:08-06:00 | INICIO | ./lab12 desbalance guided > resultados/desb_guided.csv
+2026-10-08T17:02:10-06:00 | FIN | desb_guided | 12 filas de datos
+2026-10-08T17:02:10-06:00 | INICIO | ./lab12 gustafson > resultados/gustafson.csv
+2026-10-08T17:03:23-06:00 | FIN | gustafson | 12 filas de datos
